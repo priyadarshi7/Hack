@@ -14,6 +14,7 @@ export default function LoginPage(){
        event.preventDefault()
     }
 return(
+    <div class="loginpage">
     <form>
         <h1>Login Page</h1>
         <input onChange={handleChange}
@@ -26,8 +27,10 @@ return(
         name="Password" 
         placeholder="Password"
         value={form.Password} required />
-
-       <button type="submit">Submit</button>
+            <button type="submit">Create Account</button>
+            <h4>Not Registred yet?<a href="">Create an Account</a>.</h4>
+           
     </form>
+    </div>
 )
 }
