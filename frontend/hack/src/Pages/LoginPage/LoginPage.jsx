@@ -40,7 +40,7 @@ return(
         placeholder="Password"
         value={form.password} required />
         {error && <h2>{error}</h2>}
-            <button type="submit">Login</button>
+            <button type="submit" className="neon-button">Login</button>
             <h4>Not Registred yet?<a href="/signup">Create an Account</a>.</h4>
            
     </form>
