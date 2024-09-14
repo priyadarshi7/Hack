@@ -15,7 +15,7 @@ const particleOptions: ParticleOptions = {
     // Make a particle for this pixel if blue > 50 (range 0-255)
     return pixel.b > 50;
   },
-  color: ({ x, y, image }) => "#61dafb",
+  color: ({ x, y, image }) => "white",
   radius: () => Math.random() * 1.5 + 0.5,
   mass: () => 30,
   friction: () => 0.3,
@@ -32,6 +32,7 @@ export default function App() {
   const { innerWidth, innerHeight } = useWindowSize();
 
   return (
+    <div className="box">
     <ParticleImage
       src={"/football_img.png"}
       width={400}
@@ -44,5 +45,6 @@ export default function App() {
       touchMoveForce={motionForce}
       backgroundColor="transparent"
     />
+    </div>
   );
 }

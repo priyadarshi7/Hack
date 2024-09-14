@@ -5,12 +5,17 @@
 
 .home{
     position: relative;
-    background-image: url("../../assets/BG/FG.png");
-    height: 110svh;
+    /* background-image: url("../../assets/BG/FG.png"); */
+    height: 120svh;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    background: linear-gradient(90deg, black 0%, #750000 35%, #D10000 100%);
+    background-color:#D10000;
 
+}
+h1{
+    font-family: font;
+}
 .home img{
     width: 100%;
     height: 100svh;
@@ -69,4 +74,8 @@
     top: 0;
     height: 50%;
     width:100%;
+}
+@font-face {
+    font-family: font;
+    src: url("../../assets/Fonts/SuperchargeStraightLaser-rg7jx.otf");
 }

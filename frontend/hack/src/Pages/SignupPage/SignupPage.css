@@ -15,7 +15,9 @@ form{
     min-width:300px;
     max-height:600px;
     border-radius: 2%;
-    box-shadow: 0 0 120px 60px #5BCBEB;
+    box-shadow:
+   
+        0 0 120px 60px #D10000, 0 0 60px 30px #750000 ;
 }
 
 .signuppage{
@@ -38,19 +40,19 @@ input{
 button{
     margin-top: 1vh;
    background-color: black;
-    color:#5BCBEB ;
+    color:#750000  ;
     text-shadow:
   
     
      
-      0 0 42px #5BCBEB,
-      0 0 82px #5BCBEB,
-      0 0 92px #5BCBEB,
-      0 0 102px #5BCBEB,
-      0 0 151px #5BCBEB;
+      0 0 42px #750000 ,
+      0 0 82px #750000 ,
+      0 0 92px #750000 ,
+      0 0 102px #750000 ,
+      0 0 151px #750000 ;
       box-shadow:
 
-      0 0 6px 3px #5BCBEB;
+      0 0 6px 3px #750000 ;
     width:15vw;
     height:4vh;
     border: none;
@@ -63,14 +65,14 @@ button:hover{
     0 0 3px white,
   
    
-    0 0 42px #5BCBEB,
-    0 0 82px #5BCBEB,
-    0 0 92px #5BCBEB,
-    0 0 102px #5BCBEB,
-    0 0 151px #5BCBEB;
+    0 0 42px #D10000,
+    0 0 82px #D10000,
+    0 0 92px #D10000,
+    0 0 102px #D10000,
+    0 0 151px #D10000;
     box-shadow:
 
-    0 0 8px 3px #5BCBEB;
+    0 0 8px 3px #D10000;
 }
 h4{
     margin-top: 2vh;
