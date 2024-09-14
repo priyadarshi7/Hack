@@ -6,7 +6,7 @@
 .home{
     position: relative;
     background-image: url("../../assets/BG/FG.png");
-    height: 100svh;
+    height: 110svh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,7 +65,7 @@
 
 
 .grid{
-    position: absolute;
+
     top: 0;
     height: 50%;
     width:100%;
