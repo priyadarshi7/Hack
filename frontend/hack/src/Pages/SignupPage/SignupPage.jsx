@@ -1,7 +1,9 @@
 import React from "react"
 import "./SignupPage.css"
 import axios from "axios"
+import { useNavigate } from "react-router-dom"
 export default function SignupPage(){
+    const navigate = useNavigate();
     const [form,setForm]=React.useState({username:"",email:"",password:""})
     function handleChange(event){
         const name = event.target.name;
@@ -17,6 +19,9 @@ export default function SignupPage(){
 
        //Signup API Call
        const response = await axios.post("http://localhost:8000/signup",form);
+       if(!response.error){
+        navigate("/login");
+       }
     }
 return(
     <div className="signuppage">
