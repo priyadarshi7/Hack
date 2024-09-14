@@ -1,14 +1,22 @@
 .navbar {
-    height: 3.3rem;
-    background-color: gray;
+    height: 4.5rem;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset;
-
+    box-shadow: 0px 5px 10px 0px rgba(91,203,235,0.7);  
+font-family: overload ;
 }
+@font-face {
+    font-family:overload ;
+    src: url("Hack/frontend/hack/src/assets/BG/Overload.otf");
+  }
+.navbar:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(91,203,235,0.7);
+  }
 .links{
     display: flex;
 }

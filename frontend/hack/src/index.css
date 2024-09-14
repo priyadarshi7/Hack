@@ -4,3 +4,7 @@ margin:0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
+@font-face {
+  font-family:overload ;
+  src: url("Hack/frontend/hack/src/assets/BG/Overload.otf");
+}
