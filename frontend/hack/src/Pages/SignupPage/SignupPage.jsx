@@ -23,7 +23,7 @@ export default function SignupPage() {
         try {
             // Signup API Call
             const response = await axios.post("http://localhost:8000/signup", form, { withCredentials: true });
-            if (response.status === 200) {
+            if (!response.error) {
                 // Navigate to login page on successful signup
                 navigate("/");
             } else {
