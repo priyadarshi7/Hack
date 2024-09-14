@@ -5,11 +5,14 @@ import BG2 from "../../assets/BG/footballmain.jpeg"
 import LOGO from "../../components/3D_Logo/3DLogo"
 import BG3 from "../../assets/BG/FG.png"
 import Grid from "../../assets/BG/Grid.png"
+import Navigation from "../../components/Navigation/Navigation"
 
 export default function Home(){
     return(
         <div className="home">
+            <Navigation/>
             {/* <img src={BG3} /> */}
+            
             <div className="overlay">
                 <div className="home-box">
                 <div className="home-box-1">

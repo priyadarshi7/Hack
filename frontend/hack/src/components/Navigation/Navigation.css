@@ -1,0 +1,39 @@
+.navbar {
+    height: 3.3rem;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.nav-end {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-heading {
+    font-size: 1.8rem;
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+}
+
+.home-link:hover {
+    cursor: pointer;
+}
+
+.signup-link:hover {
+    cursor: pointer;
+}
+
+.nav-links {
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+}
