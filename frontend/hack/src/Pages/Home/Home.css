@@ -42,11 +42,13 @@
 
 .home-box-1 h2{
     font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .home-box-1 h1{
     font-size: 100px;
-    color: rgb(18, 178, 236);
+    color: white;
+    padding: 0;
 }
 
 .home-box-2{
@@ -58,3 +60,14 @@
     width: 50%; 
 }
 
+.grid img{
+    width:100%;
+}
+
+
+.grid{
+    position: absolute;
+    top: 0;
+    height: 50%;
+    width:100%;
+}

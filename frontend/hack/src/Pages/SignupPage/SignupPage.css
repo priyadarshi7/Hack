@@ -46,6 +46,10 @@ button{
 h4{
     margin-top: 2vh;
 }
+
+.signuppage button{
+    cursor:pointer;
+}
 @media(height>=900px){
     input{margin-top:1px;
     height:35px;}

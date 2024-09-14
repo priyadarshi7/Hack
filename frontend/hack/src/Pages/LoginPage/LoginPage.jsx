@@ -1,7 +1,7 @@
 import React from "react"
 import "./LoginPage.css"
 export default function LoginPage(){
-    const [form,setForm]=React.useState({Name:"",Password:""})
+    const [form,setForm]=React.useState({username:"",password:""})
     function handleChange(event){
         const {name,value,type}=event.target
         setForm(prev =>{
@@ -11,7 +11,8 @@ export default function LoginPage(){
         })
     }
     function handleSubmit(event){
-       event.preventDefault()
+       event.preventDefault();
+       
     }
 return(
     <div class="loginpage">
@@ -19,16 +20,16 @@ return(
         <h1>Login Page</h1>
         <input onChange={handleChange}
         type="text"
-        name="Name" 
+        name="userame" 
         placeholder="Name"
         value={form.Name}/>
         <input onChange={handleChange}
         type="password"
-        name="Password" 
+        name="password" 
         placeholder="Password"
-        value={form.Password} required />
+        value={form.password} required />
             <button type="submit">Create Account</button>
-            <h4>Not Registred yet?<a href="">Create an Account</a>.</h4>
+            <h4>Not Registred yet?<a href="/signup">Create an Account</a>.</h4>
            
     </form>
     </div>

@@ -4,6 +4,7 @@ import BG from "../../assets/BG/football pitch.jpg"
 import BG2 from "../../assets/BG/footballmain.jpeg"
 import LOGO from "../../components/3D_Logo/3DLogo"
 import BG3 from "../../assets/BG/FG.png"
+import Grid from "../../assets/BG/Grid.png"
 
 export default function Home(){
     return(
@@ -22,6 +23,9 @@ export default function Home(){
                     <LOGO/>
                 </div>
                 </div>
+            </div>
+            <div className="grid">
+                <img src={Grid}/>
             </div>
         </div>
     )

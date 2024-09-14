@@ -9,7 +9,7 @@ export default function app(){
   return(
     <>
     <Routes>
-    {/* <LoginPage /> */}
+    <Route path="/login" element={<LoginPage />} />
     <Route path="/" element={<Home/>} />
     <Route path="/signup" element={<SignupPage />} />
     </Routes>
