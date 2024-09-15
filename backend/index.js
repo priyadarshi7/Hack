@@ -1,5 +1,5 @@
 require("dotenv").config();
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const express = require("express");
 const { dbConnect } = require("./dbConnect");
 const User = require("./models/user");
@@ -98,6 +98,8 @@ app.post("/login", async (req, res) => {
     res.status(500).json({ error: true, message: "Internal server error" });
   }
 });
-
+app.head("/", (req, res) => {
+  res.sendStatus(200);
+});
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));

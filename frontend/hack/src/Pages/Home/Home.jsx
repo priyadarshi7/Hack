@@ -20,7 +20,7 @@ export default function Home() {
                     <div className="home-box-1">
                         <div className="home-box-text">
                             <h1>AthleX AI</h1>
-                            <h2>FOR COACHES,</h2>
+                            <h2>FOR SPORTS ENTHUSIASTS,</h2>
                             <h2>BY <span>AI</span></h2>
                         </div>
                     </div>
